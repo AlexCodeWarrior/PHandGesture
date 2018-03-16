@@ -1,0 +1,96 @@
+#!/bin/bash
+
+
+echo TEST
+
+opencv_createsamples -img p/PSample1.png -bg bg.txt -info info/sample1.txt -pngoutput info -num 128  -maxxangle 0.0 -maxyangle 0.0 -maxzangle 0.3 -w 30  -h 30  -bgcolor 0 -bgthresh 80
+opencv_createsamples -info info/sample1.txt  -bg bg.txt -vec crop1.vec -num 128 -w 30 -h 30
+
+opencv_createsamples -img p/PSample2.png -bg bg.txt -info info/sample2.txt -pngoutput info -num 128  -maxxangle 0.0 -maxyangle 0.0 -maxzangle 0.3 -w 30  -h 30  -bgcolor 0 -bgthresh 95
+opencv_createsamples -info info/sample2.txt  -bg bg.txt -vec crop2.vec -num 128 -w 30 -h 30
+
+
+opencv_createsamples -img p/PSample3.png -bg bg.txt -info info/sample3.txt -pngoutput info -num 128  -maxxangle 0.0 -maxyangle 0.0 -maxzangle 0.3 -w 30  -h 30  -bgcolor 0 -bgthresh 80
+opencv_createsamples -info info/sample3.txt  -bg bg.txt -vec crop3.vec -num 128 -w 30 -h 30
+
+
+opencv_createsamples -img p/PSample4.png -bg bg.txt -info info/sample4.txt -pngoutput info -num 128  -maxxangle 0.0 -maxyangle 0.0 -maxzangle 0.3 -w 30  -h 30  -bgcolor 0 -bgthresh 90
+opencv_createsamples -info info/sample4.txt  -bg bg.txt -vec crop4.vec -num 128 -w 30 -h 30
+
+
+opencv_createsamples -img p/PSample5.png -bg bg.txt -info info/sample5.txt -pngoutput info -num 128  -maxxangle 0.0 -maxyangle 0.0 -maxzangle 0.3 -w 30  -h 30  -bgcolor 0 -bgthresh 80
+opencv_createsamples -info info/sample5.txt  -bg bg.txt -vec crop5.vec -num 128 -w 30 -h 30
+
+
+opencv_createsamples -img p/PSample6.png -bg bg.txt -info info/sample6.txt -pngoutput info -num 128  -maxxangle 0.0 -maxyangle 0.0 -maxzangle 0.3 -w 30  -h 30  -bgcolor 0 -bgthresh 85
+opencv_createsamples -info info/sample6.txt  -bg bg.txt -vec crop6.vec -num 128 -w 30 -h 30
+
+
+opencv_createsamples -img p/PSample7.png -bg bg.txt -info info/sample7.txt -pngoutput info -num 128  -maxxangle 0.0 -maxyangle 0.0 -maxzangle 0.3 -w 30  -h 30  -bgcolor 0 -bgthresh 90
+opencv_createsamples -info info/sample7.txt  -bg bg.txt -vec crop7.vec -num 128 -w 30 -h 30
+
+
+opencv_createsamples -img p/PSample8.png -bg bg.txt -info info/sample8.txt -pngoutput info -num 128  -maxxangle 0.0 -maxyangle 0.0 -maxzangle 0.3 -w 30  -h 30  -bgcolor 0 -bgthresh 90
+opencv_createsamples -info info/sample8.txt  -bg bg.txt -vec crop8.vec -num 128 -w 30 -h 30
+
+
+opencv_createsamples -img p/PSample9.png -bg bg.txt -info info/sample9.txt -pngoutput info -num 128  -maxxangle 0.0 -maxyangle 0.0 -maxzangle 0.3 -w 30  -h 30  -bgcolor 0 -bgthresh 95
+opencv_createsamples -info info/sample9.txt  -bg bg.txt -vec crop9.vec -num 128 -w 30 -h 30
+
+
+opencv_createsamples -img p/PSample10.png -bg bg.txt -info info/sample10.txt -pngoutput info -num 128  -maxxangle 0.0 -maxyangle 0.0 -maxzangle 0.3 -w 30  -h 30  -bgcolor 0 -bgthresh 90
+opencv_createsamples -info info/sample10.txt  -bg bg.txt -vec crop10.vec -num 128 -w 30 -h 30
+
+
+opencv_createsamples -img p/PSample11.png -bg bg.txt -info info/sample11.txt -pngoutput info -num 128  -maxxangle 0.0 -maxyangle 0.0 -maxzangle 0.3 -w 30  -h 30  -bgcolor 0 -bgthresh 85
+opencv_createsamples -info info/sample11.txt  -bg bg.txt -vec crop11.vec -num 128 -w 30 -h 30
+
+
+opencv_createsamples -img p/PSample12.png -bg bg.txt -info info/sample12.txt -pngoutput info -num 128  -maxxangle 0.0 -maxyangle 0.0 -maxzangle 0.3 -w 30  -h 30  -bgcolor 0 -bgthresh 80
+opencv_createsamples -info info/sample12.txt  -bg bg.txt -vec crop12.vec -num 128 -w 30 -h 30
+
+
+opencv_createsamples -img p/PSample13.png -bg bg.txt -info info/sample13.txt -pngoutput info -num 128  -maxxangle 0.0 -maxyangle 0.0 -maxzangle 0.3 -w 30  -h 30  -bgcolor 0 -bgthresh 80
+opencv_createsamples -info info/sample13.txt  -bg bg.txt -vec crop13.vec -num 128 -w 30 -h 30
+
+
+opencv_createsamples -img p/PSample14.png -bg bg.txt -info info/sample14.txt -pngoutput info -num 128  -maxxangle 0.0 -maxyangle 0.0 -maxzangle 0.3 -w 30  -h 30  -bgcolor 0 -bgthresh 55
+opencv_createsamples -info info/sample14.txt  -bg bg.txt -vec crop14.vec -num 128 -w 30 -h 30
+
+
+opencv_createsamples -img p/PSample15.png -bg bg.txt -info info/sample15.txt -pngoutput info -num 128  -maxxangle 0.0 -maxyangle 0.0 -maxzangle 0.3 -w 30  -h 30  -bgcolor 0 -bgthresh 65
+opencv_createsamples -info info/sample15.txt  -bg bg.txt -vec crop15.vec -num 128 -w 30 -h 30
+
+
+opencv_createsamples -img p/PSample16.png -bg bg.txt -info info/sample16.txt -pngoutput info -num 128  -maxxangle 0.0 -maxyangle 0.0 -maxzangle 0.3 -w 30  -h 30  -bgcolor 0 -bgthresh 60
+opencv_createsamples -info info/sample16.txt  -bg bg.txt -vec crop16.vec -num 128 -w 30 -h 30
+
+
+opencv_createsamples -img p/PSample17.png -bg bg.txt -info info/sample17.txt -pngoutput info -num 128  -maxxangle 0.0 -maxyangle 0.0 -maxzangle 0.3 -w 30  -h 30  -bgcolor 0 -bgthresh 60
+opencv_createsamples -info info/sample17.txt  -bg bg.txt -vec crop17.vec -num 128 -w 30 -h 30
+
+
+opencv_createsamples -img p/PSample18.png -bg bg.txt -info info/sample18.txt -pngoutput info -num 128  -maxxangle 0.0 -maxyangle 0.0 -maxzangle 0.3 -w 30  -h 30  -bgcolor 0 -bgthresh 50
+opencv_createsamples -info info/sample18.txt  -bg bg.txt -vec crop18.vec -num 128 -w 30 -h 30
+
+opencv_createsamples -img p/PSample19.png -bg bg.txt -info info/sample19.txt -pngoutput info -num 128  -maxxangle 0.0 -maxyangle 0.0 -maxzangle 0.3 -w 30  -h 30  -bgcolor 0 -bgthresh 70
+opencv_createsamples -info info/sample19.txt  -bg bg.txt -vec crop19.vec -num 128 -w 30 -h 30
+
+
+opencv_createsamples -img p/PSample20.png -bg bg.txt -info info/sample20.txt -pngoutput info -num 128  -maxxangle 0.0 -maxyangle 0.0 -maxzangle 0.3 -w 30  -h 30  -bgcolor 0 -bgthresh 80
+opencv_createsamples -info info/sample20.txt  -bg bg.txt -vec crop20.vec -num 128 -w 30 -h 30
+
+
+opencv_createsamples -img p/PSample21.png -bg bg.txt -info info/sample21.txt -pngoutput info -num 128  -maxxangle 0.0 -maxyangle 0.0 -maxzangle 0.3 -w 30  -h 30  -bgcolor 0 -bgthresh 47
+opencv_createsamples -info info/sample21.txt  -bg bg.txt -vec crop21.vec -num 128 -w 30 -h 30
+
+
+opencv_createsamples -img p/PSample22.png -bg bg.txt -info info/sample22.txt -pngoutput info -num 128  -maxxangle 0.0 -maxyangle 0.0 -maxzangle 0.3 -w 30  -h 30  -bgcolor 0 -bgthresh 70
+opencv_createsamples -info info/sample22.txt  -bg bg.txt -vec crop22.vec -num 128 -w 30 -h 30
+
+
+opencv_createsamples -img p/PSample23.png -bg bg.txt -info info/sample23.txt -pngoutput info -num 128  -maxxangle 0.0 -maxyangle 0.0 -maxzangle 0.3 -w 30  -h 30  -bgcolor 0 -bgthresh 40
+opencv_createsamples -info info/sample23.txt  -bg bg.txt -vec crop23.vec -num 128 -w 30 -h 30
+
+
+echo Finished
